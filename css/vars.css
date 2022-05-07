@@ -1,0 +1,44 @@
+:root {
+  --text-color: #000000;
+  --text-secondary-color: #FFFFFF;
+  --text-tertiary-color: #666666;
+  --text-hover: #FB565A;
+
+  --primary-color: #FB565A;
+  --primary-hover: #E74246;
+  --primary-click: #D7373B;
+  --primary-click-text: #E37375;
+
+  --secondary-color: #00CA74;
+  --secondary-hover: #00BC6C;
+  --secondary-click: #00AA62;
+  --secondary-click-text: #4CC391;
+
+  --tertiary-color: #EFC849;
+  --tertiary-hover: #EAB534;
+  --tertiary-click: #E5A722;
+  --tertiary-click-text: #EDC164;
+
+  --quaternary-color: #EEEEEE;
+  --quaternary-hover: #DFDFDF;
+  --quaternary-click: #D5D5D5;
+  --quaternary-click-text: #969696;
+  --quaternary-border: #DBDBDB;
+
+  --link-color: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  --link-hover: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
+  --link-click: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
+
+  --input-color: #D7DCDE;
+  --input-hover: #B4B9BB;
+  --input-focus: #000000;
+  --input-invalid: #E74246;
+
+  --checkbox-color: #4D4D4D;
+
+  --background-color: #EEEEEE;
+
+  --button-shadow: #0001011a;
+
+  --white: #FFFFFF;
+}

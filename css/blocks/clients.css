@@ -1,0 +1,11 @@
+.clients__link {
+  opacity: 0.2;
+}
+
+.clients__link:hover {
+  opacity: 1;
+}
+
+.clients__link:active {
+  opacity: 0.1;
+}
