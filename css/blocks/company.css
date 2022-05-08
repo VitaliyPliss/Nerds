@@ -1,0 +1,55 @@
+.company .container {
+  padding: 40px 0 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.company__block {
+  max-width: 650px;
+}
+
+.company__stats {
+  max-width: 360px;
+}
+
+.company__title {
+  padding-top: 25px;
+}
+
+.company__subtitle {
+  margin-top: 32px;
+}
+
+.company__block-list__title {
+  margin-top: 40px;
+}
+
+.company__block-list__item {
+  margin-top: 25px;
+  padding-left: 22px;
+}
+
+.company__stats-title {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.company__stats-list {
+  margin-top: 30px;
+  display: flex;
+}
+
+.company__stats-list__title {
+  font-weight: 700;
+  line-height: 64px;
+}
+
+sup {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.company__stats-list__text {
+  margin-top: 10px;
+}

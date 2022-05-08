@@ -20,6 +20,10 @@
   line-height: 1.5em;
 }
 
+.dd, .dl {
+  margin: 0;
+}
+
 .h1,
 .h2,
 .h3,
@@ -79,6 +83,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  transition: 0.35s background, 0.35s color;
 }
 
 .link:hover {
@@ -91,6 +96,12 @@
 }
 
 .button {
+  height: 50px;
+  min-width: 160px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
   color: var(--text-secondary-color);
 }
 
@@ -174,8 +185,82 @@
   margin: 0;
 }
 
+.pagination {
+  height: 50px;
+}
+
+.pagination * {
+  height: inherit;
+  margin-right: 10px;
+  font-weight: 500;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.pagination-page {
+  width: 50px;
+  border: none;
+}
+
+.pagination-next, .pagination-previus {
+  border: none;
+  padding: 0 75px;
+  text-transform: uppercase;
+}
+
 .pagination-page_active {
   background-color: var(--white);
-  border: 2px solid var(--quaternary-border);
+  border: 3px solid var(--quaternary-border);
   pointer-events: none;
+}
+
+.hr {
+  width: 1160px;
+  margin: 0 auto;
+  border: none;
+  border-top: 2px solid var(--background-color);
+}
+
+.hr-vertical {
+  width: 2px;
+  height: 52px;
+  border-top: none;
+  border-right: 2px solid var(--background-color);
+}
+
+.socials-link {
+  display: inline-flex;
+  background: var(--socials-color);
+  border-radius: 50%;
+  transition: 0.35s all;
+}
+
+.socials-link:hover {
+  background: var(--socials-hover);
+}
+
+.socials-link:active {
+  background: var(--socials-click);
+}
+
+.socials-link:active * {
+  opacity: 0.3;
+}
+
+.link-vk {
+  background: url('../img/icons/vk.svg') center no-repeat;
+  width: inherit;
+  height: inherit;
+}
+
+.link-fb {
+  background: url('../img/icons/fb.svg') center no-repeat;
+  width: inherit;
+  height: inherit;
+}
+
+.link-insta {
+  background: url('../img/icons/insta.svg') center no-repeat;
+  width: inherit;
+  height: inherit;
 }

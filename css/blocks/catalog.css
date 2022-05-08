@@ -1,0 +1,93 @@
+.catalog {
+  width: 760px;
+  padding-top: 55px;
+}
+
+.catalog-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-aside {
+  width: 260px;
+  padding-top: 55px;
+}
+
+.catalog-aside__price-range {
+  margin-top: 50px;
+}
+
+.catalog-aside__grid {
+  margin-top: 55px;
+}
+
+.catalog-aside__opportunities {
+  margin-top: 40px;
+}
+
+.catalog-aside__grid-label, .catalog-aside__opportunities-label {
+  margin-top: 15px;
+  display: block;
+}
+
+.catalog-aside__button {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.catalog__settings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog__list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.catalog__item {
+  position: relative;
+  height: 620px;
+  width: 360px;
+  margin-bottom: 30px;
+}
+
+.catalog__item-header {
+  height: 40px;
+  background-color: var(--gray-color);
+  border-radius: 3px 3px 0 0;
+}
+
+.catalog__block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 230px;
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.catalog__block-title {
+  margin-top: 26px;
+}
+
+.catalog__block-title .link {
+  font-weight: 700;
+}
+
+.catalog__block-text {
+  max-width: 255px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
+
+.catalog__block-button {
+  margin-top: 30px;
+}
+
+.catalog__pagination {
+  margin-top: 24px;
+  margin-bottom: 60px;
+}

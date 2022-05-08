@@ -2,3 +2,37 @@
   background-color: var(--background-color);
 }
 
+.promo__slider {
+  position: relative;
+}
+
+.promo__slide {
+  position: relative;
+  padding: 80px 0;
+}
+
+.promo__title {
+  max-width: 540px;
+}
+
+.promo__subtitle {
+  max-width: 400px;
+  margin-top: 25px;
+}
+
+.promo__link {
+  margin-top: 40px;
+}
+
+.promo__img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.promo__slider-buttons {
+  position: absolute;
+  bottom: 96px;
+  left: 50%;
+  transform: translateX(-50%);
+}

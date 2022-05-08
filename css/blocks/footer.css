@@ -1,0 +1,26 @@
+.footer {
+  padding: 70px 0;
+}
+
+.footer .container {
+  display: flex;
+  gap: 140px;
+}
+
+.footer__subtitle {
+  margin-top: 10px;
+}
+
+.footer__socials .list {
+  display: flex;
+}
+
+.footer-socials__link {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.footer-socials__link:last-child {
+  margin-right: 0;
+}

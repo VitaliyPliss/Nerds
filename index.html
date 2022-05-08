@@ -31,9 +31,9 @@
         <div class="promo__slider">
           <div class="promo__slide">
             <h2 class="promo__title h1">Долго, дорого, скрупулезно.</h2>
-            <p class="promo__subtitle p">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+            <p class="promo__subtitle p">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
             <a href="blank.html" class="promo__link button button-primary">Узнать больше</a>
-            <img src="img/promo_slider/slide1.png" alt="#" width="760" height="431">
+            <img src="img/promo_slider/slide1.png" class="promo__img" alt="#" width="760" height="431">
           </div>
 
           <div class="promo__slide">
@@ -41,15 +41,15 @@
             <p class="promo__subtitle p">Никакого креатива, только математические формулы для расчета идеальных пропорций
             </p>
             <a href="blank.html" class="promo__link button button-primary">Узнать больше</a>
-            <img src="img/promo_slider/slide2.png" alt="#" width="760" height="431">
+            <img src="img/promo_slider/slide2.png" class="promo__img" alt="#" width="760" height="431">
           </div>
 
           <div class="promo__slide">
-            <h2 class="promo__title h1">Только ночь, только хардкор</h2>
+            <h2 class="promo__title h1">Только ночь,<br> только хардкор</h2>
             <p class="promo__subtitle p">Работать днем, как все? Мы против этого. Ближе к полуночи работа только
               начинается.</p>
             <a href="blank.html" class="promo__link button button-primary">Узнать больше</a>
-            <img src="img/promo_slider/slide3.png" alt="#" width="760" height="431">
+            <img src="img/promo_slider/slide3.png" class="promo__img" alt="#" width="760" height="431">
           </div>
 
           <div class="promo__slider-buttons">
@@ -95,47 +95,71 @@
       </div>
     </section>
 
-    <hr>
+    <hr class="hr">
 
     <section class="company">
       <div class="container">
         <div class="company__block">
           <h2 class="company__title h2">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-          <p class="company__block-subtitle p">Исповедуем принципы минимализма и чистоты. Ставим математический
-            расчетпревыше креатива. Работаем не покладая рук, как роботы.</p>
-          <h5 class="company__block-title h5">Выполняем заказы на разработку:</h5>
+          <p class="company__subtitle p">Исповедуем принципы минимализма и чистоты. Ставим математический
+            расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+          <h5 class="company__block-list__title h5">Выполняем заказы на разработку:</h5>
           <ul class="company__block-list list">
-            <li class="company__block-list__item"> Веб-сайтов любой сложности</li>
-            <li class="company__block-list__item">Мобильных приложений для iOS и Android</li>
+            <li class="company__block-list__item">Веб-сайтов любой сложности</li>
             <li class="company__block-list__item">Слайдшоу и видео для корпоративных презентаций</li>
+            <li class="company__block-list__item">Мобильных приложений для iOS и Android</li>
           </ul>
         </div>
         <div class="company__stats">
           <img src="img/logo_decor.png" alt="Logo" class="company__stats-img" width="360" height="208">
           <h5 class="company__stats-title h5">с 2004 года Любим точность во всем:</h5>
-          <ul class="list">
-
-          </ul>
+          <dl class="company__stats-list dl">
+            <div class="company__stats-list__item">
+              <dt class="company__stats-list__title h2">
+                146<sup class="company__stats-list__sup">%</sup>
+              </dt>
+              <dd class="company__stats-list__text dd p">Уровень самоотдачи</dd>
+            </div>
+            <div class="company__stats-list__item">
+              <dt class="company__stats-list__title h2">
+                100<sup class="company__stats-list__sup">%</sup>
+              </dt>
+              <dd class="company__stats-list__text dd p">Соблюдение сроков</dd>
+            </div>
+            <div class="company__stats-list__item">
+              <dt class="company__stats-list__title h2">
+                50<sup class="company__stats-list__sup">%</sup>
+              </dt>
+              <dd class="company__stats-list__text dd p">Минимальная предоплата</dd>
+            </div>
+          </dl>
         </div>
       </div>
     </section>
+
+    <hr class="hr">
 
     <section class="clients">
       <h2 class="clients__title visually-hidden">Клиенты</h2>
       <div class="container">
         <a class="clients__link"><img src="img/companies/company_1.svg" alt="HTML Academy"></a>
+        <hr class="hr hr-vertical">
         <a class="clients__link"><img src="img/companies/company_2.svg" alt="Barbershop"></a>
+        <hr class="hr hr-vertical">
         <a class="clients__link"><img src="img/companies/company_3.svg" alt="A Pink"></a>
+        <hr class="hr hr-vertical">
         <a class="clients__link"><img src="img/companies/company_4.svg" alt="Mishka"></a>
       </div>
     </section>
 
-    <section class="contacts">
+    <hr class="hr">
+
+    <section class="contacts contacts_index">
       <h2 class="contacts__title visually-hidden">Контакты</h2>
       <div class="container">
         <div class="contacts__block">
-          <h3 class="contacts__block-title h3">NЁRDS DESIGN STUDIO</h3>
-          <address class="contacts__block-address">наб. Реки Карповки, 5 лит П, Санкт-Петербург</address>
+          <h4 class="contacts__block-title h4">NЁRDS DESIGN STUDIO</h4>
+          <address class="contacts__block-address">наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург</address>
           <a href="tel:+78005558628" class="contacts__block-phone link">+7 800 555-86-28</a>
           <a href="blank.html" class="contacts__block-link button button-primary">Напишите нам</a>
         </div>
@@ -145,15 +169,17 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-socials">
+      <div class="footer__socials">
         <ul class="list">
-          <li class="footer-socials__link link-vk"><a href="blank.html"></a></li>
-          <li class="footer-socials__link link-fb"><a href="blank.html"></a></li>
-          <li class="footer-socials__link link-in"><a href="blank.html"></a></li>
+          <li class="footer-socials__link socials-link"><a href="blank.html" class="link-vk"></a></li>
+          <li class="footer-socials__link socials-link"><a href="blank.html" class="link-fb"></a></li>
+          <li class="footer-socials__link socials-link"><a href="blank.html" class="link-insta"></a></li>
         </ul>
       </div>
-      <h3 class="footer__title h3">Давайте дружить, это выгодно!</h3>
-      <p class="footer__subtitle p">Скидка 10% для друзей из социальных сетей.</p>
+      <div class="footer__block">
+        <h3 class="footer__title h3">Давайте дружить, это выгодно!</h3>
+        <p class="footer__subtitle p">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </div>
   </footer>
 </body>

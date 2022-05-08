@@ -1,4 +1,16 @@
 .header {
+  padding-top: 50px;
   line-height: 30px;
   background-color: var(--background-color);
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav .list {
+  display: flex;
+  gap: 45px;
 }

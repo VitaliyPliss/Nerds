@@ -1,0 +1,17 @@
+.services .container {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__block-title, .services__block-subtitle {
+  margin-top: 1em;
+}
+
+.services__block-subtitle {
+  max-width: 260px;
+}
+
+.services__block-link {
+  margin-top: 32px;
+}

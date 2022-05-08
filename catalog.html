@@ -33,64 +33,64 @@
       </div>
     </section>
 
-    <div class="shop-container container">
-      <aside class="aside">
+    <div class="catalog-container container">
+      <aside class="catalog-aside">
           <form action="#" method="post">
-            <fieldset class="aside__price fieldset">
-              <legend class="aside__price-title">Стоимость:</legend>
-                <input type="range" class="aside__price-range" name="price" min="0" max="15000" step="1">
+            <fieldset class="catalog-aside__price fieldset">
+              <legend class="catalog-aside__price-title h5">Стоимость:</legend>
+                <input type="range" class="catalog-aside__price-range" name="price" min="0" max="15000" step="1">
                 <label>от<input type="number" value="0"></label>
                 <label>до<input type="number" value="15000"></label>
             </fieldset>
-            <fieldset class="aside__grid fieldset">
-                <legend class="aside__grid-title">Сетка:</legend>
-                <label class="aside__grid-label">
-                  <input type="radio" name="grid" class="aside__grid-input" value="adaptive" checked>
+            <fieldset class="catalog-aside__grid fieldset">
+                <legend class="catalog-aside__grid-title h5">Сетка:</legend>
+                <label class="catalog-aside__grid-label">
+                  <input type="radio" name="grid" class="catalog-aside__grid-input" value="adaptive" checked>
                   Адаптивная
                 </label>
-                <label class="aside__grid-label">
-                  <input type="radio" name="grid" class="aside__grid-input" value="fixed">
+                <label class="catalog-aside__grid-label">
+                  <input type="radio" name="grid" class="catalog-aside__grid-input" value="fixed">
                   Фиксированная
                 </label>
-                <label class="aside__grid-label">
-                  <input type="radio" name="grid" class="aside__grid-input" value="responsive">
+                <label class="catalog-aside__grid-label">
+                  <input type="radio" name="grid" class="catalog-aside__grid-input" value="responsive">
                   Резиновая
                 </label>
             </fieldset>
-            <fieldset class="aside__opportunities fieldset">
-                <legend class="aside__opportunities-title">Особенности:</legend>
-                <label class="aside__opportunities-label">
-                  <input type="checkbox" name="opportunities" class="aside__opportunities-input" value="slider" checked>
+            <fieldset class="catalog-aside__opportunities fieldset">
+                <legend class="catalog-aside__opportunities-title h5">Особенности:</legend>
+                <label class="catalog-aside__opportunities-label">
+                  <input type="checkbox" name="opportunities" class="catalog-aside__opportunities-input" value="slider" checked>
                   Слайдер
                 </label>
-                <label class="aside__opportunities-label">
-                  <input type="checkbox" name="opportunities" class="aside__opportunities-input" value="advantages">
+                <label class="catalog-aside__opportunities-label">
+                  <input type="checkbox" name="opportunities" class="catalog-aside__opportunities-input" value="advantages">
                   Блок преимуществ
                 </label>
-                <label class="aside__opportunities-label">
-                  <input type="checkbox" name="opportunities" class="aside__opportunities-input" value="news" checked>
+                <label class="catalog-aside__opportunities-label">
+                  <input type="checkbox" name="opportunities" class="catalog-aside__opportunities-input" value="news" checked>
                   Новости
                 </label>
-                <label class="aside__opportunities-label">
-                  <input type="checkbox" name="opportunities" class="aside__opportunities-input" value="gallery">
+                <label class="catalog-aside__opportunities-label">
+                  <input type="checkbox" name="opportunities" class="catalog-aside__opportunities-input" value="gallery">
                   Галерея
                 </label>
-                <label class="aside__opportunities-label">
-                  <input type="checkbox" name="opportunities" class="aside__opportunities-input" value="basket">
+                <label class="catalog-aside__opportunities-label">
+                  <input type="checkbox" name="opportunities" class="catalog-aside__opportunities-input" value="basket">
                   Корзина
                 </label>
-                <button class="aside__button button button-quaternary" type="submit">Показать</button>
+                <button class="catalog-aside__button button button-quaternary" type="submit">Показать</button>
             </fieldset>
           </form>
       </aside>
 
       <section class="catalog">
-        <h2 class="catalog__title h2">Каталог</h2>
+        <h2 class="catalog__title visually-hidden">Каталог</h2>
         <div class="catalog__settings">
           <h4 class="catalog__settings-title h4">Сортировать:</h4>
           <div class="catalog__settings-buttons">
             <label class="catalog__settings-label">
-              <input type="radio" name="settings" class="catalog__settings-button">
+              <input type="radio" name="settings" class="catalog__settings-button" checked>
               По цене
             </label>
             <label class="catalog__settings-label">
@@ -110,82 +110,82 @@
           <li class="catalog__item">
             <div class="catalog__item-header"></div>
             <img src="img/cards/sedona.png" alt="Sedona" width="358" height="578">
-            <div class="catalog__item">
-              <h4 class="catalog__item-title h4"><a class="link">Sedona</a></h4>
-              <p class="catalog__item-text p">Информационный сайт для туристов</p>
-              <button class="catalog__item-button button button-primary">9 900 ₽</button>
+            <div class="catalog__block">
+              <h4 class="catalog__block-title h4"><a class="link">Sedona</a></h4>
+              <p class="catalog__block-text p">Информационный сайт для туристов</p>
+              <button class="catalog__block-button button button-primary">9 900 ₽</button>
             </div>
           </li>
 
           <li class="catalog__item">
             <div class="catalog__item-header"></div>
             <img src="img/cards/pink_app.png" alt="Pink App" width="358" height="578">
-            <div class="catalog__item">
-              <h4 class="catalog__item-title h4"><a class="link">Pink App</a></h4>
-              <p class="catalog__item-text p">Продуктовый лендинг приложения для iOS и Android</p>
-              <button class="catalog__item-button button button-primary">9 900 ₽</button>
+            <div class="catalog__block">
+              <h4 class="catalog__block-title h4"><a class="link">Pink App</a></h4>
+              <p class="catalog__block-text p">Продуктовый лендинг приложения для iOS и Android</p>
+              <button class="catalog__block-button button button-primary">9 900 ₽</button>
             </div>
           </li>
 
           <li class="catalog__item">
             <div class="catalog__item-header"></div>
             <img src="img/cards/barbershop.png" alt="Barbershop" width="358" height="578">
-            <div class="catalog__item">
-              <h4 class="catalog__item-title h4"><a class="link">Barbershop</a></h4>
-              <p class="catalog__item-text p">Сайт салона красоты. Для мужчин, да.</p>
-              <button class="catalog__item-button button button-primary">9 900 ₽</button>
+            <div class="catalog__block">
+              <h4 class="catalog__block-title h4"><a class="link">Barbershop</a></h4>
+              <p class="catalog__block-text p">Сайт салона красоты. Для мужчин, да.</p>
+              <button class="catalog__block-button button button-primary">9 900 ₽</button>
             </div>
           </li>
 
           <li class="catalog__item">
             <div class="catalog__item-header"></div>
             <img src="img/cards/mishka.png" alt="MISHKA" width="358" height="578">
-            <div class="catalog__item">
-              <h4 class="catalog__item-title h4"><a class="link">MISHKA</a></h4>
-              <p class="catalog__item-text p">Интернет-магазин вязаных игрушек</p>
-              <button class="catalog__item-button button button-primary">9 900 ₽</button>
+            <div class="catalog__block">
+              <h4 class="catalog__block-title h4"><a class="link">MISHKA</a></h4>
+              <p class="catalog__block-text p">Интернет-магазин вязаных игрушек</p>
+              <button class="catalog__block-button button button-primary">9 900 ₽</button>
             </div>
           </li>
 
           <li class="catalog__item">
             <div class="catalog__item-header"></div>
             <img src="img/cards/a_plus.png" alt="A Plus" width="358" height="578">
-            <div class="catalog__item">
-              <h4 class="catalog__item-title h4"><a class="link">A Plus</a></h4>
-              <p class="catalog__item-text p">Лендинг курсов повышения квалификации</p>
-              <button class="catalog__item-button button button-primary">9 900 ₽</button>
+            <div class="catalog__block">
+              <h4 class="catalog__block-title h4"><a class="link">A Plus</a></h4>
+              <p class="catalog__block-text p">Лендинг курсов повышения квалификации</p>
+              <button class="catalog__block-button button button-primary">9 900 ₽</button>
             </div>
           </li>
 
           <li class="catalog__item">
             <div class="catalog__item-header"></div>
             <img src="img/cards/kvast.png" alt="КВАСТ" width="358" height="578">
-            <div class="catalog__item">
-              <h4 class="catalog__item-title h4"><a class="link">КВАСТ</a></h4>
-              <p class="catalog__item-text p">Промо-сайт производителя крафтового кваса</p>
-              <button class="catalog__item-button button button-primary">9 900 ₽</button>
+            <div class="catalog__block">
+              <h4 class="catalog__block-title h4"><a class="link">КВАСТ</a></h4>
+              <p class="catalog__block-text p">Промо-сайт производителя крафтового кваса</p>
+              <button class="catalog__block-button button button-primary">9 900 ₽</button>
             </div>
           </li>
         </ul>
 
-        <div class="catalog__pagination">
-          <button class="pagination-previus button button-quaternary visually-hidden">Предыдущая</button>
-          <button class="pagination-page pagination-page_active button button-quaternary">1</button>
-          <button class="pagination-page button button-quaternary">2</button>
-          <button class="pagination-page button button-quaternary">3</button>
-          <button class="pagination-next button button-quaternary">Следующая</button>
+        <div class="catalog__pagination pagination">
+          <button class="pagination-previus button-quaternary visually-hidden">Предыдущая</button>
+          <button class="pagination-page pagination-page_active button-quaternary">1</button>
+          <button class="pagination-page button-quaternary">2</button>
+          <button class="pagination-page button-quaternary">3</button>
+          <button class="pagination-next button-quaternary">Следующая</button>
         </div>
       </section>
     </div>
 
-    <section class="contacts">
+    <section class="contacts contacts_catalog">
       <h2 class="contacts__title visually-hidden">Контакты</h2>
       <div class="container">
         <div class="contacts__block">
-          <h3 class="contacts__block-title h3">NЁRDS DESIGN STUDIO</h3>
-          <address class="contacts__block-address">наб. Реки Карповки, 5 лит П, Санкт-Петербург</address>
+          <h4 class="contacts__block-title h4">NЁRDS DESIGN STUDIO</h4>
+          <address class="contacts__block-address">наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург</address>
           <a href="tel:+78005558628" class="contacts__block-phone link">+7 800 555-86-28</a>
-          <a href="blank.html" class="contacts__block-link link">Напишите нам</a>
+          <a href="blank.html" class="contacts__block-link button button-primary">Напишите нам</a>
         </div>
       </div>
     </section>
@@ -193,15 +193,17 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-socials">
+      <div class="footer__socials">
         <ul class="list">
-          <li class="footer-socials__link link-vk"><a href="blank.html"></a></li>
-          <li class="footer-socials__link link-fb"><a href="blank.html"></a></li>
-          <li class="footer-socials__link link-in"><a href="blank.html"></a></li>
+          <li class="footer-socials__link socials-link"><a href="blank.html" class="link-vk"></a></li>
+          <li class="footer-socials__link socials-link"><a href="blank.html" class="link-fb"></a></li>
+          <li class="footer-socials__link socials-link"><a href="blank.html" class="link-insta"></a></li>
         </ul>
       </div>
-      <h3 class="footer__title h3">Давайте дружить, это выгодно!</h3>
-      <p class="footer__subtitle p">Скидка 10% для друзей из социальных сетей.</p>
+      <div class="footer__block">
+        <h3 class="footer__title h3">Давайте дружить, это выгодно!</h3>
+        <p class="footer__subtitle p">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
     </div>
   </footer>
 </body>

@@ -25,16 +25,16 @@
   --quaternary-click-text: #969696;
   --quaternary-border: #DBDBDB;
 
-  --link-color: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
-  --link-hover: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
-  --link-click: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
+  --socials-color: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  --socials-hover: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
+  --socials-click: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
 
   --input-color: #D7DCDE;
   --input-hover: #B4B9BB;
   --input-focus: #000000;
   --input-invalid: #E74246;
 
-  --checkbox-color: #4D4D4D;
+  --gray-color: #4D4D4D;
 
   --background-color: #EEEEEE;
 
