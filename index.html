@@ -29,14 +29,18 @@
     <section class="promo">
       <div class="container">
         <div class="promo__slider">
-          <div class="promo__slide">
+          <input type="radio" name="promo-slider" class="promo__slider-input" id="slide1" checked>
+          <input type="radio" name="promo-slider" class="promo__slider-input" id="slide2">
+          <input type="radio" name="promo-slider" class="promo__slider-input" id="slide3">
+
+          <div class="promo__slide slide1">
             <h2 class="promo__title h1">Долго, дорого, скрупулезно.</h2>
             <p class="promo__subtitle p">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
             <a href="blank.html" class="promo__link button button-primary">Узнать больше</a>
             <img src="img/promo_slider/slide1.png" class="promo__img" alt="#" width="760" height="431">
           </div>
 
-          <div class="promo__slide">
+          <div class="promo__slide slide2">
             <h2 class="promo__title h1">Любим математику как никто другой</h2>
             <p class="promo__subtitle p">Никакого креатива, только математические формулы для расчета идеальных пропорций
             </p>
@@ -44,7 +48,7 @@
             <img src="img/promo_slider/slide2.png" class="promo__img" alt="#" width="760" height="431">
           </div>
 
-          <div class="promo__slide">
+          <div class="promo__slide slide3">
             <h2 class="promo__title h1">Только ночь,<br> только хардкор</h2>
             <p class="promo__subtitle p">Работать днем, как все? Мы против этого. Ближе к полуночи работа только
               начинается.</p>
@@ -53,17 +57,9 @@
           </div>
 
           <div class="promo__slider-buttons">
-            <label class="promo__slider-label">
-              <input type="radio" name="promo-slider" class="promo__slider-button" checked>
-            </label>
-
-            <label class="promo__slider-label">
-              <input type="radio" name="promo-slider" class="promo__slider-button">
-            </label>
-
-            <label class="promo__slider-label">
-              <input type="radio" name="promo-slider" class="promo__slider-button">
-            </label>
+            <label for="slide1" class="promo__slider-label slide1-label"></label>
+            <label for="slide2" class="promo__slider-label slide2-label"></label>
+            <label for="slide3" class="promo__slider-label slide3-label"></label>
           </div>
         </div>
       </div>
